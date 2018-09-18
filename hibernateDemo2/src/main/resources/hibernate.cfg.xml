@@ -22,6 +22,8 @@
 		<property name="c3p0.max_statements">10</property>
 		<mapping resource="hibernateOneToOne/Department.hbm.xml" />
 		<mapping resource="hibernateOneToOne/Manager.hbm.xml" />
+		<mapping resource="hibernateOneToOnePrimary/Department.hbm.xml" />
+		<mapping resource="hibernateOneToOnePrimary/Manager.hbm.xml" />
 
 
 	</session-factory>
